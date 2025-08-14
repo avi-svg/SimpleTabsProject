@@ -20,5 +20,21 @@ function onClick(id){
             closeAll();
             document.getElementById("second-tab-content").style.display = "flex";
             break;
+        case "threth-tab":
+            closeAll();
+            document.getElementById("threth-tab-content").style.display = "flex";
+            break;
+        case "forth-tab":
+            closeAll();
+            document.getElementById("forth-tab-content").style.display = "flex";
+            break;
+        case "fith-tab":
+            closeAll();
+            document.getElementById("fith-tab-content").style.display = "flex";
+            break;
+        case "sixt-tab":
+            closeAll();
+            document.getElementById("sixt-tab-content").style.display = "flex";
+            break;
     }
 }
